@@ -1,0 +1,10 @@
+# netlify.toml — place this in root of your site folder
+
+[build]
+  publish = "."
+
+# Enable Netlify Identity for CMS login
+[[redirects]]
+  from = "/admin"
+  to = "/admin/index.html"
+  status = 200
